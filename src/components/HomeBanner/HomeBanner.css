@@ -1,0 +1,186 @@
+.App.first-layout .home-banner-container {
+    top: 0px;
+    position: absolute;
+    width: 100%;
+    padding-top: 4rem;
+    background: linear-gradient(
+        95.76deg,
+        rgba(45, 139, 201, 0.3) 5.66%,
+        rgba(248, 212, 27, 0.2) 99.12%
+    );
+}
+
+.App.second-layout .home-banner-container {
+    top: 0px;
+    position: absolute;
+    width: 100%;
+    padding: 6rem 0;
+    background-image: url("/public/assets/images/home/bg-path.png");
+    background-repeat: no-repeat;
+    background-position: right top;
+}
+
+.home-banner-container-detail {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.App.first-layout .home-banner-main {
+    display: flex;
+    align-items: center;
+    color: black;
+}
+
+.App.first-layout .home-banner-main-second {
+    display: none;
+}
+
+.App.second-layout .home-banner-main {
+    display: none;
+}
+
+.App.second-layout .home-banner-main-second {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.App.second-layout .home-banner-left {
+    display: block;
+    position: relative;
+}
+
+.App.second-layout .home-banner-right {
+    display: block;
+    position: relative;
+}
+
+.App.second-layout .home-banner-center {
+    text-align: center;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    font-family: Nunito;
+    color: #193a6a;
+}
+
+.App.second-layout .home-banner-center-detail {
+    display: flex;
+    flex-direction: column;
+}
+
+.App.second-layout .home-banner-center-title {
+    font-weight: 800;
+}
+
+.App.second-layout .home-banner-center-content {
+    font-size: 18px;
+    color: #000000;
+    font-weight: 600;
+}
+
+.App.second-layout .home-banner-center a {
+    margin-top: 15px;
+    background-color: #124c5f;
+    opacity: 0.8;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    font-family: Roboto Flex;
+    width: 15%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.App.first-layout .home-banner-left {
+    text-align: left;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.App.first-layout .home-banner-left-detail {
+    display: flex;
+    flex-direction: column;
+    --tw-space-y-reverse: 0;
+    margin-top: calc(0.75rem * calc(1 - var(--tw-space-y-reverse)));
+    margin-bottom: calc(0.75rem * var(--tw-space-y-reverse));
+}
+
+.App.first-layout .home-banner-left-title {
+    font-family: Pangolin;
+}
+
+.App.first-layout .home-banner-left-content {
+    font-family: Pangolin;
+    font-size: 18px;
+}
+
+.App.first-layout .home-banner-left-button {
+    margin-top: 15px;
+    background-color: #de135c;
+    opacity: 0.8;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 10px;
+    font-family: Roboto Flex;
+    width: 15%;
+    text-align: center;
+}
+
+.App.first-layout .home-banner-right {
+    display: block;
+    position: relative;
+    width: 50%;
+    margin-bottom: -5px;
+}
+
+@media screen and (max-width: 960px) {
+    .App.first-layout .home-banner-right {
+        display: none;
+    }
+    .App.first-layout .home-banner-left {
+        width: 100%;
+        text-align: center;
+        margin-top: 100px;
+    }
+    .App.first-layout .home-banner-left-button {
+        margin: 0 auto;
+        margin-top: 2rem;
+        width: 50vw;
+    }
+    .App.first-layout .home-banner-container {
+        padding-bottom: 4rem;
+    }
+
+    .App.second-layout .home-banner-right {
+        display: none;
+    }
+    .App.second-layout .home-banner-left {
+        display: none;
+    }
+
+    .App.second-layout .home-banner-center {
+        width: 100%;
+        text-align: center;
+        margin-top: 100px;
+    }
+    .App.second-layout .home-banner-center a {
+        margin: 0 auto;
+        margin-top: 2rem;
+        width: 50vw;
+    }
+    .App.second-layout .home-banner-container-second {
+        padding-bottom: 4rem;
+    }
+}
+
+@media screen and (max-width: 368px) {
+    .App.first-layout .home-banner-container {
+        margin-bottom: 4rem !important;
+    }
+}

@@ -1,0 +1,267 @@
+.home-service-container {
+    padding-top: 32rem;
+    padding-bottom: 4rem;
+}
+
+.App.first-layout .home-service-container-detail {
+    max-width: 1280px;
+    margin: 0 auto;
+    --tw-space-y-reverse: 0;
+    margin-top: calc(3rem * calc(1 - var(--tw-space-y-reverse)));
+    margin-bottom: calc(3rem * var(--tw-space-y-reverse));
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.App.first-layout .home-service-container-detail h2 {
+    font-weight: 800;
+    font-family: Nunito;
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+}
+
+.App.first-layout .home-service-main {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    justify-items: center;
+    gap: 5rem;
+    margin: 0 auto;
+}
+
+.App.first-layout .home-service-main img {
+    width: 270px;
+    height: 180px;
+    border-radius: 30px;
+}
+
+.App.first-layout .home-service-overlay {
+    position: relative;
+}
+
+.App.first-layout .home-service-overlay-content {
+    width: 100%;
+}
+
+.App.first-layout .home-service-overlay .home-service-overlay-content {
+    font-family: Nunito;
+    position: absolute;
+    font-size: 0.75rem;
+    color: white;
+    left: 55%;
+    top: 0;
+    transform: translate(-50%, 0);
+    transition: 0.6s;
+    opacity: 0;
+    z-index: 1;
+}
+
+.App.first-layout .home-service-overlay:hover .home-service-overlay-content {
+    transform: translate(-50%, -50%);
+    top: 50%;
+    opacity: 1;
+}
+
+.App.first-layout .overlay {
+    height: 0;
+    width: 100%;
+    background: #333;
+    position: absolute;
+    top: 0;
+    opacity: 0.5;
+    transition: 0.5s;
+    border-radius: 30px;
+}
+
+.App.first-layout .home-service-overlay:hover .overlay {
+    opacity: 0.5;
+    height: 180px;
+}
+
+.App.first-layout .home-service-container-detail-second {
+    display: none;
+}
+
+.App.second-layout .home-service-container-detail {
+    display: none;
+}
+
+.App.second-layout .home-service-container-detail-second {
+    max-width: 1280px;
+    margin: 0 auto;
+    --tw-space-y-reverse: 0;
+    margin-top: calc(3rem * calc(1 - var(--tw-space-y-reverse)));
+    margin-bottom: calc(3rem * var(--tw-space-y-reverse));
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.App.second-layout .home-service-container-detail-second h4 {
+    font-weight: 600;
+    font-family: Pangolin;
+    letter-spacing: 1px;
+}
+
+.App.second-layout .home-service-container-detail-second hr {
+    width: 117px;
+    height: 2px;
+    background-color: #3a8da8;
+}
+
+.App.second-layout .home-service-main-second {
+    padding-top: 4rem;
+    display: grid;
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+    justify-items: center;
+    gap: 5rem;
+    margin: 0 auto;
+    position: relative;
+}
+
+.App.second-layout .home-service-main-second-detail {
+    border: 1px solid #98f2e1;
+    border-radius: 10px;
+    width: 200px;
+    height: 225px;
+    position: relative;
+}
+
+.App.second-layout .home-service-main-second-detail-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.App.second-layout .home-service-main-second-detail:hover {
+    cursor: pointer;
+    background-color: #6ce5ba;
+    color: white;
+}
+
+@media screen and (max-width: 960px) {
+    .App.first-layout .home-service-main {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        justify-items: center;
+        gap: 5rem;
+        margin: 0 auto;
+    }
+
+    .App.second-layout .home-service-main-second {
+        padding-top: 4rem;
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        justify-items: center;
+        gap: 5rem;
+        margin: 0 auto;
+        position: relative;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .App.first-layout .home-service-main {
+        display: grid;
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+        justify-items: center;
+        gap: 5rem;
+        margin: 0 auto;
+    }
+
+    .App.second-layout .home-service-main-second {
+        padding-top: 4rem;
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        justify-items: center;
+        gap: 5rem;
+        margin: 0 auto;
+        position: relative;
+    }
+}
+
+@media screen and (max-width: 460px) {
+    .App.first-layout .home-service-main {
+        display: grid;
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+        justify-items: center;
+        gap: 5rem;
+        margin: 0 auto;
+    }
+
+    .App.second-layout .home-service-main-second {
+        padding-top: 4rem;
+        display: grid;
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+        justify-items: center;
+        gap: 5rem;
+        margin: 0 auto;
+        position: relative;
+    }
+
+    .App.second-layout .home-service-container-detail-second {
+        padding-top: 4rem;
+    }
+}
+.App.first-layout .home-service-main {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    justify-items: center;
+    gap: 2rem; /* Reduced gap for better card alignment */
+    margin: 0 auto;
+}
+
+.App.first-layout .home-service-main img {
+    width: 100%; /* Ensure image fits inside card */
+    height: 180px;
+    border-radius: 8px; /* Reduced border radius for consistency */
+    object-fit: cover; /* Ensure proper cropping */
+}
+
+.App.first-layout .card {
+    width: 100%; /* Take full width of the grid column */
+    max-width: 320px; /* Set a max width for cards */
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow for styling */
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background: #fff; /* Ensure card background is white */
+}
+
+.App.first-layout .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2); /* Highlight on hover */
+}
+
+.App.first-layout .card-title {
+    font-weight: 700;
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+    text-align: center;
+}
+
+.App.first-layout .card-text {
+    font-size: 1rem;
+    text-align: center;
+    color: #666;
+}
+
+.App.first-layout .btn-primary {
+    display: block;
+    margin: 0 auto;
+    font-size: 0.9rem;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+}
+
+/* Responsive Adjustments */
+@media screen and (max-width: 960px) {
+    .App.first-layout .home-service-main {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .App.first-layout .home-service-main {
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+    }
+}

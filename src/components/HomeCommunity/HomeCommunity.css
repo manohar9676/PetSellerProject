@@ -1,0 +1,219 @@
+.home-community-container {
+    padding: 4rem 0;
+}
+
+.App.first-layout .home-community-container-detail {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.App.first-layout .home-community-container-detail-second {
+    display: none;
+}
+
+.App.second-layout .home-community-container-detail {
+    display: none;
+}
+
+.App.second-layout .home-community-title-second {
+    margin-bottom: 4rem;
+}
+
+.App.second-layout .home-community-container-detail-second h4 {
+    font-weight: 600;
+    font-family: Pangolin;
+    letter-spacing: 1px;
+}
+
+.App.second-layout .home-community-container-detail-second hr {
+    width: 117px;
+    height: 2px;
+    background-color: #3a8da8;
+}
+
+.App.second-layout .home-community-container-detail-second {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.App.first-layout .home-community-title {
+    font-weight: 800;
+    font-family: Nunito;
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.App.first-layout .home-community-title h2 {
+    font-weight: 800;
+    font-family: Nunito;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.App.first-layout .home-community-title h4 {
+    font-weight: 600;
+    font-family: Nunito;
+    text-align: center;
+    color: #a9a9a9;
+    letter-spacing: 0.75px;
+}
+
+.App.first-layout .home-community-comment-container {
+    margin: 4rem 0;
+    width: 100%;
+    margin: 0 auto;
+    cursor: move;
+}
+
+.App.first-layout .home-community-slide-space {
+    margin-right: 0.75rem;
+    margin-left: 0.75rem;
+}
+
+.App.first-layout .home-community-slide-space a {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.App.first-layout .home-community-slide-box {
+    filter: drop-shadow(0 1px 1px rgb(0 0 0 / 0.05));
+    border-radius: 0.375rem;
+    background-color: #fff;
+    padding: 1.5rem;
+    border: 1px solid #eaeaea;
+}
+
+.App.first-layout .home-community-slide-info {
+    position: relative;
+}
+
+.App.first-layout .home-community-slide-avatar {
+    display: flex;
+    align-items: center;
+}
+
+.App.first-layout .home-community-slide-round img {
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    border-width: 1px;
+    margin-right: 0.75rem;
+}
+
+.App.first-layout .home-community-slide-name {
+    display: flex;
+    flex-direction: column;
+}
+
+.App.first-layout .home-community-slide-name-detail {
+    color: #000;
+    font-weight: 800;
+    font-family: Roboto Flex;
+}
+
+.App.first-layout .home-community-slide-name-detail-link {
+    color: #000;
+    font-weight: 400;
+    font-family: Roboto Flex;
+    font-size: 14px;
+}
+
+.App.first-layout .home-community-content {
+    margin-top: 0.75rem;
+}
+
+.App.first-layout .swiper-button-next::after,
+.App.first-layout .swiper-button-prev::after {
+    color: #de135c;
+}
+
+.App.second-layout .home-community-comment-container {
+    margin: 4rem auto;
+    width: 100%;
+    cursor: move;
+}
+
+.App.second-layout .home-community-comment-container {
+    margin: 4rem 0;
+    width: 100%;
+    margin: 0 auto;
+    cursor: move;
+}
+
+.App.second-layout .home-community-slide-space {
+    margin-right: 0.75rem;
+    margin-left: 0.75rem;
+}
+
+.App.second-layout .home-community-slide-space a {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.App.second-layout .home-community-slide-box {
+    filter: drop-shadow(0 1px 1px rgb(0 0 0 / 0.05));
+    border-radius: 0.375rem;
+    background-color: #fff;
+    padding: 1.5rem;
+    border: 1px solid #eaeaea;
+}
+
+.App.second-layout .home-community-slide-info {
+    position: relative;
+}
+
+.App.second-layout .home-community-slide-avatar {
+    display: flex;
+    align-items: center;
+}
+
+.App.second-layout .home-community-slide-round img {
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    border-width: 1px;
+    margin-right: 0.75rem;
+}
+
+.App.second-layout .home-community-slide-name {
+    display: flex;
+    flex-direction: column;
+}
+
+.App.second-layout .home-community-slide-name-detail {
+    color: #000;
+    font-weight: 800;
+    font-family: Roboto Flex;
+}
+
+.App.second-layout .home-community-slide-name-detail-link {
+    color: #000;
+    font-weight: 400;
+    font-family: Roboto Flex;
+    font-size: 14px;
+}
+
+.App.second-layout .home-community-content {
+    margin-top: 0.75rem;
+}
+
+.App.second-layout .swiper-button-next::after,
+.App.second-layout .swiper-button-prev::after {
+    color: #de135c;
+}
+
+@media (max-width: 1024px) {
+    .App.first-layout .swiper-button-prev,
+    .App.first-layout .swiper-button-next {
+        display: none !important;
+    }
+
+    .App.second-layout .swiper-button-prev,
+    .App.second-layout .swiper-button-next {
+        display: none !important;
+    }
+}

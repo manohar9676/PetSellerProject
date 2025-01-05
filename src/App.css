@@ -1,0 +1,53 @@
+.App.first-layout {
+    min-height: 100vh;
+    background-color: #f5f5f5;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+.App.second-layout {
+    min-height: 100vh;
+    background-color: #f5f5f5;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+.navbar-logo-main {
+    width: 150px;
+    height: 112.5px;
+    margin-top: -20px;
+}
+
+.footer-logo-main {
+    width: 200px;
+    height: 150px;
+}
+
+.App a {
+    color: inherit;
+}
+
+.btn-switch-theme {
+  position: fixed;
+  z-index: 9999;
+  font-size: 3em;
+  animation: 3s infinite App-logo-spin;
+}
+
+.btn-switch-theme:hover {
+  cursor: pointer;
+}
+.App.first-layout .btn-switch-theme {
+  color: #de135c;
+}
+.App.second-layout .btn-switch-theme {
+  color: #124c5f;
+}
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
